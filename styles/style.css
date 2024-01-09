@@ -24,12 +24,7 @@ button {
     border-radius: 8px;
     background: #E55473;
     border: none;
-}
-
-
-
-header {
-    background: rgba(229, 84, 115, 0.10);
+    cursor: pointer;
 }
 
 .container {
@@ -37,6 +32,27 @@ header {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.section-heading {
+    max-width: 445px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    margin-bottom: 16px;
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+
 
 .banner {
     display: flex;
@@ -59,4 +75,53 @@ header {
 
 .banner .banner-img img {
     width: 100%;
+    vertical-align: middle;
+}
+
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: end;
+}
+
+.section-content .flower .flower-img {
+    background-color: #ecb6c2;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 30px 15px 0;
+    display: flex;
+    align-items: end;
+
+}
+
+.section-content .flower .flower-img img {
+    width: 100%;
+}
+
+#color-1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+#color-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+#color-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower p{
+    color: #272727;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 35px;
+        margin-top: 5px;
+        text-decoration-line: underline;
 }
